@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1,
+    "title": "Some title 1",
+    "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum iaculis sed nisi non tincidunt. Proin consectetur, odio vitae pulvinar elementum, ligula lectus iaculis tellus, nec scelerisque justo nunc sollicitudin est. Vestibulum vel nunc tristique, molestie velit ut, consectetur dolor. ",
+    "authors": [
+      {
+        "id": 1,
+        "name": "Author 1"
+      },
+      {
+        "id": 2,
+        "name": "Author 2"
+      }
+    ],
+    "genres": [
+      {
+        "id": 1,
+        "name": "Sci-Fi"
+      },
+      {
+        "id": 2,
+        "name": "Krimi"
+      }
+    ],
+    "price": "12.56"
+  },
+  {
+    "id": 2,
+    "title": "Some title 2",
+    "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum iaculis sed nisi non tincidunt. Proin consectetur, odio vitae pulvinar elementum, ligula lectus iaculis tellus, nec scelerisque justo nunc sollicitudin est. Vestibulum vel nunc tristique, molestie velit ut, consectetur dolor. ",
+    "authors": [
+      {
+        "id": 3,
+        "name": "Author 3"
+      }
+    ],
+    "genres": [
+      {
+        "id": 2,
+        "name": "Krimi"
+      }
+    ],
+    "price": "11.90"
+  },
+  {
+    "id": 3,
+    "title": "Some title 3",
+
+    "authors": [
+      {
+        "id": 4,
+        "name": "Author 4"
+      },
+      {
+        "id": 2,
+        "name": "Author 2"
+      }
+    ],
+    "genres": [
+      {
+        "id": 1,
+        "name": "Sci-Fi"
+      }
+    ],
+    "price": "17"
+  },
+  {
+    "id": 4,
+    "title": "Some title 4",
+    "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum iaculis sed nisi non tincidunt. Proin consectetur, odio vitae pulvinar elementum, ligula lectus iaculis tellus, nec scelerisque justo nunc sollicitudin est. Vestibulum vel nunc tristique, molestie velit ut, consectetur dolor. ",
+
+    "genres": [
+      {
+        "id": 3,
+        "name": "Love Story"
+      }
+    ],
+    "price": "9.66"
+  }]
