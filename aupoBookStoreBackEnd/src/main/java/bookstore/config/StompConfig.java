@@ -2,6 +2,8 @@ package bookstore.config;
 
 import bookstore.filters.*;
 import org.springframework.context.annotation.*;
+import org.springframework.core.*;
+import org.springframework.core.annotation.*;
 import org.springframework.http.server.*;
 import org.springframework.messaging.simp.config.*;
 import org.springframework.web.socket.*;
@@ -15,6 +17,7 @@ import java.util.*;
 
 @Configuration
 @EnableWebSocketMessageBroker
+@Order(Ordered.HIGHEST_PRECEDENCE + 99)
 public class StompConfig implements WebSocketMessageBrokerConfigurer {
 
     @Override
